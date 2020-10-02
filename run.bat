@@ -1,4 +1,6 @@
 echo off
+rem add use info in .git file to commit using particular git account
+echo "git account changed"
 echo "Copying .vimrc to:" %userprofile%
 cp .vimrc %userprofile%
 echo "Removing _vimrc:" from %userprofile%\_vimrc
